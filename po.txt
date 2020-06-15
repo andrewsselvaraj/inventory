@@ -1,0 +1,11 @@
+Project module
+
+add status state ==> 0 ,1,2
+0--> start
+1-->analysis
+2--->design
+2-->code
+3---->testing
+
+add start date , end date
+		

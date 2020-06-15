@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+<script type="text/javascript" src="calendarDateInput.js">
+
+/***********************************************
+* Jason's Date Input Calendar- By Jason Moon http://calendar.moonscript.com/dateinput.cfm
+* Script featured on and available at http://www.dynamicdrive.com
+* Keep this notice intact for use.
+***********************************************/
+
+</script>
+
+</HEAD>
+<BODY topmargin=0>
+<form action=asAddedEmp.html>
+<TABLE width="780" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+
+
+        <TR >
+
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg"  ALT="Inventory.jpg" width="25%" height="50%" ALIGN=center  BORDER=0>
+<b><font CLASS="css">&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+        </TR>
+        <TR>
+
+                <TD WIDTH=780 valign=top >
+                                <table bgcolor="#336699" WIDTH=780 ><tr ><td><span class=title>Enter Project information</span></td><td align=right><a  href="asLogout.html"><span class=headwhite>Logout</span></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td></tr></table>
+                                <table WIDTH=780><tr ><td><script src='..\jscript\emenu.js'></script></td></tr></table>
+
+                                <table  align=center border=0>
+				<tr>
+
+                                        <td><span class=caption>Client Name</span></td>
+					<td><select name=clientname class="plain"><option>STP Malaysia</option><option>JB Group Malaysia</option></select></td>
+				</tr>
+                                <tr >
+                                        <td><span class=caption>Project Name</span></td>
+                                        <td><INPUT  type="text" size="20" maxlength="50" name="projectname" class="plain">  </td>
+                                </tr>
+
+				<tr>
+
+                                        <td><span class=caption>Project Type</span></td>
+					<td><select name=type class="plain"><option>Web Technology</option><option></option></select></td>
+				</tr>
+                                <tr >
+                                        <td>Start Date</td><script>DateInput('orderdate', true, 'DD-MON-YYYY')</script>
+                                        <td> <SELECT class="plain">
+					<OPTION VALUE="01" SELECTED>01</OPTION>
+					</SELECT><SELECT class="plain">
+					<OPTION VALUE="january" SELECTED>January</OPTION>
+				</SELECT><INPUT TYPE=TEXT NAME="year" SIZE=4 class="plain">
+					</td>
+					
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Team Size</span></td>
+                                        <td><INPUT  type="text" size="5" maxlength="5" name="teamsize" class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Duration</span></td>
+                                        <td><INPUT TYPE=TEXT NAME="duration" SIZE=12 class="plain"><SELECT class="plain">
+					<OPTION VALUE="days">Days
+					<OPTION VALUE="months">Months
+					<OPTION VALUE="years" SELECTED>Years</OPTION>
+				</SELECT>  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Project Amount</span></td>
+                                        <td><INPUT TYPE=TEXT NAME="amount" SIZE=12 class="plain"><SELECT class="plain">
+					<OPTION VALUE="1" SELECTED>USD$
+					<OPTION VALUE="2">CAD$
+					<OPTION VALUE="3">FRF
+					<OPTION VALUE="4">ITL
+					<OPTION VALUE="5">&pound;
+					<OPTION VALUE="6">&yen;
+					<OPTION VALUE="7">DM
+					<OPTION VALUE="8">MYR</OPTION>
+				</SELECT> </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Project Description</span></td>
+                                        <td><textarea class="plain"></textarea></td>
+                                </tr>
+
+
+                                <tr >
+                                        <td align=right><span class=caption><input Type=submit name=Submit value=Submit class="plain"></span></td>
+                                        <td><span class=caption><input Type=reset name=reset value=Reset class="plain"></span></td>
+                                </tr>
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012
+                </TD>
+        </TR>
+
+</TABLE>
+</form>
+</BODY>
+</HTML>

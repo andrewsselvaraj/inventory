@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+<style type="text/css">
+<!--
+.copyrights {
+        COLOR: #336699; FONT: 10px/12px verdana, arial, helvetica
+        ;}
+ a {
+                COLOR:#0e3192;font-size:12px; FONT-FAMILY: vardana,arial,helvetica;TEXT-DECORATION: none
+         ;}
+
+           a:hover {
+                COLOR: red; TEXT-DECORATION: underline
+         ;}
+
+
+.text{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #003333; line-height: 18pt; text-decoration: none; text-align: justify;}
+.title{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color: #FFFFFF; line-height: 18pt; text-decoration: none; text-align: justify;font-weight:  bold;}
+.caption{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:888888;  FONT-WEIGHT: bold; }
+.headwhite{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:#FFFFFF;  FONT-WEIGHT: bold; }
+.disp{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:7pt;color:#336699;  font-weight:  bold;}
+
+-->
+</style>
+
+
+</HEAD>
+<BODY >
+<form action=asAddedEmp.html>
+<TABLE width="780" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+
+
+        <TR >
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg" NAME="Graphic1" ALT="Inventory.jpg (37K)" ALIGN=BOTTOM  BORDER=0>
+<b><font CLASS="css">&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+        </TR>
+        <TR>
+
+                <TD WIDTH=780 valign=top >
+                                <table bgcolor="#336699" WIDTH=780 ><tr ><td><span class=title>Adding Client information</span></td><td align=right><a  href="asLogout.html"><span class=headwhite>Logout</span></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td></tr></table>
+                                <table bgcolor="#EBEBEB" WIDTH=780><tr ><td><script src='..\jscript\emenu.js'></script></td></tr></table>
+
+                                <table  align=center border=0>
+                                <tr >
+                                        <td><span class=caption>Project ID</span></td>
+                                        <td><span class=disp>Pro_001 </span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Project Name</span></td>
+                                        <td><span class=disp>E Library </span></td>
+                                </tr>
+				<tr>
+
+                                        <td><span class=caption>Client Name</span></td>
+                                        <td><span class=disp>STP Malaysia </span></td>
+
+				</tr>
+
+
+				<tr>
+
+                                        <td><span class=caption>Project Type</span></td>
+                                        <td><span class=disp>Web Technology</span></td>
+				</tr>
+                                <tr >
+                                        <td><span class=caption>Start Date</span></td>
+                                                                             <td><span class=disp>03 Jan 2002</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Team Size</span></td>
+                                                                             <td><span class=disp>25</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Duration</span></td>
+	                                <td><span class=disp>1 Year</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Project Amount</span></td>
+                                        <td> <span class=disp>25 $</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Project Description</span></td>
+                                        <td> <span class=disp>It is Library Information <BR>on net</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Registration date</span></td>
+                                        <td> <span class=disp>03 June 2001 </span></td>
+                                </tr>
+
+
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012
+                </TD>
+        </TR>
+
+</TABLE>
+</form>
+</BODY>
+</HTML>

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+<style type="text/css">
+<!--
+.copyrights {
+        COLOR: #336699; FONT: 10px/12px verdana, arial, helvetica
+        ;}
+ a {
+                COLOR:#0e3192;font-size:12px; FONT-FAMILY: vardana,arial,helvetica;TEXT-DECORATION: none
+         ;}
+
+           a:hover {
+                COLOR: red; TEXT-DECORATION: underline
+         ;}
+
+
+.text{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #003333; line-height: 18pt; text-decoration: none; text-align: justify;}
+.title{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color: #FFFFFF; line-height: 18pt; text-decoration: none; text-align: justify;font-weight:  bold;}
+.caption{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:888888;  FONT-WEIGHT: bold; }
+.head{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:000000;  FONT-WEIGHT: bold; }
+.disp{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:7pt;color:#336699;  font-weight:  bold;}
+.headwhite{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:#FFFFFF;  FONT-WEIGHT: bold; }
+.headred{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:red;  FONT-WEIGHT: bold; }
+
+-->
+</style>
+
+
+</HEAD>
+<BODY >
+<form action=asAddedEmp.html>
+<TABLE width="780" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+
+
+        <TR >
+
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg" NAME="Graphic1" ALT="Inventory.jpg (37K)" ALIGN=BOTTOM  BORDER=0>
+<b><font CLASS="css">&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+        </TR>
+        <TR>
+
+                <TD  valign=top >
+                                <table bgcolor="#336699"  width=780><tr ><td><span class=title>List of products  Selected for the project "E Liabrary"</span></td><td align=right><a  href="asLogout.html"><span class=headwhite>Logout</span></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td></tr></table>
+                                <table bgcolor="#EBEBEB"><tr ><td><script src='..\jscript\emenu.js'></script></td></tr></table>
+
+                                <table  align=center border=0    cellspacing=0>
+                                <tr >
+
+					<td colspan=2 ><span class=headred>Feed back From Cyber Globe INDIA</span> </td>
+
+
+                                </tr>
+
+                                <tr >
+
+					<td><span class=caption>Send Message</span> </td>
+					<td><select name=msgtype><option value=Phone>Phone</option><option value=Fax>Fax</option><option value=Email>Email</option></select></td>
+
+                                </tr>
+
+                                <tr >
+                                        <td><span class=caption>Date</span></td>
+                                        <td> <SELECT>
+					<OPTION VALUE="01" SELECTED>01</OPTION>
+					</SELECT><SELECT>
+					<OPTION VALUE="january" SELECTED>January</OPTION>
+				</SELECT><INPUT TYPE=TEXT NAME="year" SIZE=4>
+					</td>
+                                </tr>
+
+                                <tr >
+                                        <td><span class=caption>Time</span></td>
+                                        <td> <INPUT TYPE=TEXT NAME="year" SIZE=4 value=00:00>
+					</td>
+                                </tr>
+
+                                <tr >
+                                        <td><span class=caption>Message Send By</span></td>
+                                        <td> <INPUT TYPE=TEXT NAME="year" SIZE=20 value=Xavier>
+					</td>
+                                </tr>
+				<tr><td align=right><input type=submit name=Submit value="Submit"></td><td ><input type=Reset name=Submit value="Reset"></td></tr>
+
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012
+                </TD>
+        </TR>
+
+</TABLE>
+</form>
+</BODY>
+</HTML>

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+
+
+
+</HEAD>
+<BODY >
+<form action=asAddedEmp.html>
+<TABLE width="780" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+
+
+        <TR >
+
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg" NAME="Graphic1" ALT="Inventory.jpg (37K)" ALIGN=BOTTOM  BORDER=0>
+<b><font CLASS="css">&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+        </TR>
+        <TR>
+                            <TD WIDTH=780 valign=top >
+                                <table bgcolor="#336699" WIDTH=780  ><tr ><td><span class=title>Enter product information</span></td><td align=right><a  href="asLogout.html"><span class=headwhite>Logout</span></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td></tr></table>
+                                <table bgcolor="#EBEBEB" WIDTH=780 ><tr ><td><script src='..\jscript\emenu.js'></script></td></tr></table>
+
+                                <table  align=center border=0>
+                                <tr >
+                                        <td><span class=caption>product Name</span></td>
+                                        <td><INPUT  type="text" size="20" maxlength="50" name="productname" class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>product Head Office</span></td>
+                                        <td><INPUT  type="text" size="20" maxlength="50" name="productheadoffice" class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>product Information</span></td>
+                                        <td> <textarea NAME=productinfo class="plain"></textarea>
+					</td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Address</span></td>
+                                        <td><textarea name=address class="plain"></textarea>  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>State</span></td>
+                                        <td><input type=textbox name=state class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Country</span></td>
+                                        <td> <select name=country class="plain"><option value="india"> INDIA </option><option value="Malaysia"> Malaysia </option></select></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Pin Code</span></td>
+                                        <td><input type=textbox name=pincode class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Phone 1</span></td>
+                                        <td><input type=textbox name=phone1 class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Phone 2 </span></td>
+                                        <td><input type=textbox name=phone2 class="plain"><span class=caption> (Optional) </span> </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Fax   </span></td>
+                                        <td><input type=textbox name=fax class="plain">  <span class=caption> (Optional) </span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>E Mail</span></td>
+                                        <td><input type=textbox name=email class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Web Site</span></td>
+                                        <td><input type=textbox name=website class="plain">  </td>
+                                </tr>
+                                <tr >
+                                        <td align=right><span class=caption><input Type=submit name=Submit value=Submit class="plain"></span></td>
+                                        <td><span class=caption><input Type=reset name=reset value=Reset class="plain"></span></td>
+                                </tr>
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012.
+                </TD>
+        </TR>
+
+</TABLE>
+</form>
+</BODY>
+</HTML>

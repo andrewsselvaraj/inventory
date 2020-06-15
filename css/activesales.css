@@ -1,0 +1,56 @@
+body {
+	margin-left : 4px;
+}
+
+.mainFolderBox {
+	background-color : white;
+	border : 1px navy solid
+	color : navy;
+	margin : 0px 0px 0px 0px;
+	padding : 3px 3px 3px 3px;
+}
+
+.mainFolderLine {
+	color : navy;
+	text-decoration : none;
+}
+
+.mainFolderLineMouseOver {
+	color : red;
+	text-decoration : none;
+}
+
+.subFolderBox {
+	background-color : white;
+	border : 1px navy solid;
+	color : navy;
+	margin : 0px 0px 0px 0px;
+	padding : 3px 3px 3px 3px;
+}
+
+.subFolderLine {
+	color : navy;
+	text-decoration : none;
+}
+
+.subFolderLineMouseOver {
+	color : red;
+	text-decoration : none;
+}
+
+.linkBox {
+	background-color : white;
+	border : 1px navy solid;
+	color : navy;
+	margin : 0px 0px 0px 0px;
+	padding : 3px 3px 3px 3px;
+}
+
+.linkLine {
+	color : blue;
+}
+
+.linkLineMouseOver {
+	color : red;
+}
+

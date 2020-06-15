@@ -1,0 +1,238 @@
+function validateProductid(product_id) {
+	var product_id = document.getElementById('product_id');
+    //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+    if (product_id.value == "") {
+        
+        alert ("product ID is required!");
+		return false;
+    }  
+    
+    return true;
+}
+
+function validateProductname(product_name) {
+	var product_name = document.getElementById('product_name');
+	//var alphaExp = /^[a-zA-Z]+$/;
+	var namelen=product_name.value;
+	var alphaExp = /^[a-z A-Z]+$/;
+    //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+        if(namelen == "") 
+		{
+        alert ("Productname field is empty!");
+        return false;
+		}
+		if (namelen.length < 3) {
+
+		alert ("The Productname is too short");
+        return false;
+    }
+        //var alphaExp = /^[a-z A-Z]+$/;
+		if(namelen.match(alphaExp))
+		{
+			return true;
+		}
+		else
+	    {
+		   alert ("Invalid Productname");
+		   return false;
+		}
+		
+		
+    return true;
+	
+}
+
+function validateProductdet(product_detail) {
+	var product_detail = document.getElementById('product_detail');
+    var illegalChars = /\W/; // allow letters, numbers, and underscores
+    var input=product_detail.value;
+    if (input == "") {
+        
+        alert ("You didn't enter the details of the product");
+		return false;
+    }  
+    if (illegalChars.test(input)) {
+        
+		alert ("invalid product detail");
+		return false;
+    } 
+    return true;
+}
+
+function validateModel(model) {
+	var model = document.getElementById('model');
+    var illegalChars = /\W/; // allow letters, numbers, and underscores
+    var input=model.value;
+    if (input == "") {
+        
+        alert ("You didn't enter a model");
+		return false;
+    }  
+    if (illegalChars.test(input)) {
+        
+		alert ("invalid model");
+		return false;
+    } 
+    return true;
+}
+
+function validateMaterialtype(material_type) {
+	var material_type = document.getElementById('material_type');
+	//var alphaExp = /^[a-zA-Z]+$/;
+	var namelen=material_type.value;
+	var alphaExp = /^[a-z A-Z]+$/;
+    //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+        if(namelen == "") 
+		{
+        alert ("material_type field is empty!");
+        return false;
+		}
+		if (namelen.length < 3) {
+
+		alert ("The material_type is too short");
+        return false;
+    }
+        //var alphaExp = /^[a-z A-Z]+$/;
+		if(namelen.match(alphaExp))
+		{
+			return true;
+		}
+		else
+	    {
+		   alert ("Invalid material_type");
+		   return false;
+		}
+		
+		
+    return true;
+	
+}
+
+function validateQuantity(quantity) {
+	var quantity = document.getElementById('quantity');
+	var namelen=quantity.value;
+	var alphaExp = /^[a-zA-Z]+$/;
+   //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+        if(namelen == "") 
+		{
+        alert ("quantity field is empty!");
+        return false;
+		}
+	    if(namelen!=alphaExp)
+		{
+			return true;
+		}
+		else
+	    {
+		   alert ("Invalid quantity");
+		   return false;
+		}
+
+    return true;
+	
+}
+
+function validateCalunit(calculation_unit) {
+	var calculation_unit = document.getElementById('calculation_unit');
+	var namelen=calculation_unit.value;
+	var alphaExp = /^[a-zA-Z]+$/;
+   //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+        if(namelen == "") 
+		{
+        alert ("calculation_unit field is empty!");
+        return false;
+		}
+	    if(namelen!=alphaExp)
+		{
+			return true;
+		}
+		else
+	    {
+		   alert ("Invalid calculation_unit");
+		   return false;
+		}
+
+    return true;
+	
+}
+
+function validateCurrate(current_rate) {
+	var current_rate = document.getElementById('current_rate');
+	var namelen=current_rate.value;
+	var alphaExp = /^[a-zA-Z]+$/;
+   //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+        if(namelen == "") 
+		{
+        alert ("current_rate field is empty!");
+        return false;
+		}
+	    if(namelen!=alphaExp)
+		{
+			return true;
+		}
+		else
+	    {
+		   alert ("Invalid current_rate");
+		   return false;
+		}
+
+    return true;
+	
+}
+
+function validateCreated_by(created_by) {
+	var created_by = document.getElementById('created_by');
+	//var alphaExp = /^[a-zA-Z]+$/;
+	var namelen=created_by.value;
+	var alphaExp = /^[a-z A-Z]+$/;
+    //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ 
+        if(namelen == "") 
+		{
+        alert ("created_by field is empty!");
+        return false;
+		}
+		if (namelen.length < 3) {
+
+		alert ("The created_by is too short");
+        return false;
+    }
+        //var alphaExp = /^[a-z A-Z]+$/;
+		if(namelen.match(alphaExp))
+		{
+			return true;
+		}
+		else
+	    {
+		   alert ("Invalid created_by");
+		   return false;
+		}
+		
+		
+    return true;
+	
+}
+
+
+function validateStatus(status) {
+   var status = document.getElementById('status');
+    //var illegalChars = /\W/; // allow letters, numbers, and underscores
+ var input=status.value;
+    if (input == "") {
+        
+        alert ("You didn't enter the Status");
+		return false;
+    }  
+    if (input.length > 1) {
+
+		alert ("The Status is too long");
+        return false;
+    }
+    return true;
+}

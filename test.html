@@ -1,0 +1,28 @@
+<HTML> 
+<HEAD> 
+<script> 
+
+    function SaveToDisk(sPath) 
+    { 
+	alert("COMING"); 
+        var fso = new ActiveXObject("Scripting.FileSystemObject"); 
+        var fileDest = fso.CreateTextFile(sPath, true); 
+        if (fileDest) 
+        { 
+           fileDest.Write(document.documentElement.outerHTML); 
+           fileDest.close(); 
+	alert("FILE WRITTEN"); 
+        } 
+        else 
+        { 
+           alert("unable to create file " + sPath); 
+        } 
+
+    }        
+</script> 
+</HEAD> 
+
+<BODY onLoad="SaveToDisk('..\\123.htm');"> 
+<P>The rest of the page is hereasdfasdas...</P> 
+</BODY> 
+</HTML> 

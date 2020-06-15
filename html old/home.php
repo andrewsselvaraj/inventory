@@ -1,0 +1,66 @@
+<? php session_start();
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+
+
+
+
+
+</HEAD>
+<BODY leftmargin=0 topmargin=0#0080ff>
+
+<TABLE width="780 px" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+<form action=asActiveSales.html>
+
+        <TR  >
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg"  ALT="Inventory.jpg" width="25%" height="50%" ALIGN=center  BORDER=0>
+<b><font CLASS="css">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+
+        </TR>
+
+        <TR>
+
+                <TD WIDTH=780 valign=top >
+                                <table bgcolor="#0000ff" WIDTH=780 ><tr ><td><span class=title>Inventory Management Login</span></td></tr></table>
+                                <table bgcolor="#EBEBEB" WIDTH=780><tr ><td>&nbsp</td></tr></table>
+
+                                <table  align=center border=0>
+                                <tr >
+                                        <td><span class=caption>User Name</span></td>
+
+                                        <td><INPUT  type="text" size="20" maxlength="50" name="username" value="Admin" class="plain">
+            </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Password</span></td>
+                                        <td><input Type=password name=password value="Admin" class="plain"></td>
+                                </tr>
+
+                                <tr >
+
+                                        <td align=right><span class=caption><input Type=submit name=Login value=Login class="plain"></span></td>
+                                        <td><span class=caption><input Type=reset name=reset value=Reset class="plain"></span></td>
+                                </tr>
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012.
+                </TD>
+
+        </TR>
+</form>
+</TABLE>
+
+</BODY>
+</HTML>

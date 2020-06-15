@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+<style type="text/css">
+<!--
+.copyrights {
+        COLOR: #336699; FONT: 10px/12px verdana, arial, helvetica
+        ;}
+ a {
+                COLOR:#0e3192;font-size:12px; FONT-FAMILY: vardana,arial,helvetica;TEXT-DECORATION: none
+         ;}
+
+           a:hover {
+                COLOR: red; TEXT-DECORATION: underline
+         ;}
+
+
+.text{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #003333; line-height: 18pt; text-decoration: none; text-align: justify;}
+.title{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color: #FFFFFF; line-height: 18pt; text-decoration: none; text-align: justify;font-weight:  bold;}
+.caption{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:888888;  FONT-WEIGHT: bold; }
+.disp{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:7pt;color:#336699;  font-weight:  bold;}
+
+-->
+</style>
+
+
+</HEAD>
+<BODY >
+<form action=asAddedEmp.html>
+<TABLE width="780" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+
+
+        <TR >
+
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg" NAME="Graphic1" ALT="Inventory.jpg (37K)" ALIGN=BOTTOM  BORDER=0>
+<b><font CLASS="css">&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+        </TR>
+        <TR>
+
+                <TD WIDTH=630 valign=top >
+                                <table bgcolor="#336699" WIDTH=780 ><tr ><td><span class=title> Client information</span></td></tr></table>
+                                <table bgcolor="#EBEBEB" WIDTH=780><tr ><td><script src='..\jscript\emenu.js'></script></td></tr></table>
+
+                                <table  align=center border=0>
+                                <tr >
+                                        <td><span class=caption>Client ID</span></td>
+
+                                        <td><span class=disp>C_STP_001</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Client Name</span></td>
+
+                                        <td><span class=disp>Stp Malaysia</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Client Head Office</span></td>
+                                        <td><span class=disp>Stp Malaysia</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Client Information</span></td>
+                                        <td> <span class=disp>Best Leader in STP, KL</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Address</span></td>
+                                        <td> <span class=disp>Software Technology Park<BR> Kl Malaysia </span> </td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>State</span></td>
+                                        <td><span class=disp>KL </span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Country</span></td>
+
+                                        <td><span class=disp>Malaysia  </span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Pin Code</span></td>
+                                        <td><span class=disp>857001  </span></td>
+
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Phone 1</span></td>
+                                        <td><span class=disp>980006661  </span></td>
+
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Phone 2</span></td>
+                                        <td><span class=disp>nil </span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Fax</span></td>
+                                        <td><span class=disp>980006669 </span></td>
+
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>E Mail</span></td>
+                                        <td><span class=disp>san@stpmalaysia.com</span></td>
+
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Web Site</span></td>
+                                        <td><span class=disp>www.STPMalaysia.org</span></td>
+                                </tr>
+                                <tr >
+                                        <td><span class=caption>Registration Date</span></td>
+                                        <td><span class=disp>17 March 1998</span></td>
+                                </tr>
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012
+                </TD>
+        </TR>
+
+</TABLE>
+</form>
+</BODY>
+</HTML>

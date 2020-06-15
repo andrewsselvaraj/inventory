@@ -1,0 +1,39 @@
+<?php
+$con = mysql_connect("localhost","root","");
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+  }
+
+// Create database
+//if (mysql_query("CREATE DATABASE inventorymgmt",$con))
+  //{
+  //echo "Database created";
+  //}
+//else
+  //{
+  //echo "Error creating database: " . mysql_error();
+  //}
+
+// Create table
+mysql_select_db("inventorymgmt",$con);
+$sql = "CREATE TABLE IF NOT EXISTS `product_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` varchar(20) NOT NULL,
+  `product_name` varchar(50) NOT NULL,
+  `product_detail` varchar(100) NOT NULL,
+  `model` varchar(50) NOT NULL,
+  `material_type` varchar(50) NOT NULL,
+  `quantity` int(5) NOT NULL,
+  `calculation_unit` varchar(4) NOT NULL,
+  `current_rate` decimal(8,0) NOT NULL,
+  `created_by` varchar(25) NOT NULL,
+  `created_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` varchar(1) NOT NULL,
+  PRIMARY KEY (`id`));
+  
+  // Execute query
+mysql_query($sql,$con);
+
+mysql_close($con);
+?>

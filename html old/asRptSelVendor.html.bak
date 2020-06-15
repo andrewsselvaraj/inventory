@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="../css/activesales.css">
+<link rel="stylesheet" type="text/css" href="../css/display.css">
+<META name="GENERATOR" content="IBM WebSphere Page Designer V4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Inventory Management</title>
+<script language="JavaScript" >
+function printpage() {
+	MM_showHideLayers('Layer1','','hide');
+	window.print();
+	MM_showHideLayers('Layer1','','show')
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_showHideLayers() { //v3.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+</script>
+<style type="text/css">
+<!--
+.copyrights {
+        COLOR: #336699; FONT: 10px/12px verdana, arial, helvetica
+        ;}
+ a {
+                COLOR:#0e3192;font-size:12px; FONT-FAMILY: vardana,arial,helvetica;TEXT-DECORATION: none
+         ;}
+
+           a:hover {
+                COLOR: red; TEXT-DECORATION: underline
+         ;}
+
+
+.text{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #003333; line-height: 18pt; text-decoration: none; text-align: justify;}
+.title{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color: #FFFFFF; line-height: 18pt; text-decoration: none; text-align: justify;font-weight:  bold;}
+.caption{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:888888;  FONT-WEIGHT: bold; }
+.head{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:000000;  FONT-WEIGHT: bold; }
+.headred{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:red;  FONT-WEIGHT: bold; }
+.disp{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:7pt;color:#336699;  font-weight:  bold;}
+.headwhite{FONT-FAMILY: "Microsoft Sans Serif", Verdana, Helvetica, Arial; font-size:8pt;color:#FFFFFF;  FONT-WEIGHT: bold; }
+
+
+-->
+</style>
+
+
+</HEAD>
+<BODY topmargin=0>
+<form>
+<TABLE width="780" border="0" cellpadding="0" cellspacing="0" style="page-break-before: always" valign="top">
+
+
+        <TR >
+                <TD  bgcolor=#B0C4DE   valign=top>
+                        <IMG SRC="../images/Inventory.jpg" NAME="Graphic1" ALT="Inventory.jpg (37K)" ALIGN=BOTTOM  BORDER=0>
+<b><font CLASS="css">&nbsp;Inventory</font><font CLASS="css1">Management</font></b><sup><b>TM</b></sup>
+                </TD>
+
+        </TR>
+        <TR>
+
+                <TD WIDTH=780 valign=top >
+                                <table bgcolor="#336699" WIDTH=780  ><tr ><td><span class=title>Reports </span></td><td align=right><a  href="asLogout.html"><span class=headwhite>Logout</span></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td></tr></table>
+                                <table bgcolor="#EBEBEB" WIDTH=780 ><tr ><td><script src='..\jscript\emenu.js'></script></td></tr></table>
+
+                                <table  align=center border=0  width=780 		  cellspacing=0>
+                                <tr bgcolor="#EBEBEB">
+                                        <td colspan=4 align=center valign=bottom><BR><span class=headred>Reports of Vendors Selected for project between 01 January 2002 to 05 May 2003</span><BR></td>
+
+                                </tr>    
+                            <tr bgcolor="#EBEBEB">
+                                 <td align=center><BR><span class=head>S no</span>  </td>    <td><BR><span class=head>Vendor Name</span></td><td><BR><span class=head>Project Name</span></td><td><BR><span class=head>Date of Selection</span></td>
+
+                                </tr>
+                                <tr >
+                                 <td align=center><span class=disp>1</span>  </td>
+                                       <td><span class=disp>Cyber Globe INDIA</span></td><td><span class=disp>E Library</span></td><td><span class=disp>05 May 2002</span></td>
+
+                                </tr>
+                                <tr >
+                                 <td align=center><span class=disp>2</span>  </td>
+                                        <td><span class=disp>BITECH</span></td><td><span class=disp>E Library</span></td><td><span class=disp>02 September 2002</span></td>
+
+                                </tr>
+				<tr><td>&nbsp</td><td>&nbsp</td><TD>&nbsp</td><td align=center ><a href="JavaScript:printpage();"><font ><span class=disp>Print</span> </font></a>
+</td><td>&nbsp</td></tr>
+                                </table>
+                </TD>
+        </TR>
+        <TR>
+                <TD COLSPAN=2 bgcolor=#EBEBEB class=copyrights align="center">
+                        Copy Right All Right Reserved 2012
+                </TD>
+        </TR>
+
+</TABLE>
+</form>
+</BODY>
+</HTML>
